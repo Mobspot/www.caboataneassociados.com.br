@@ -1,83 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head><?php include_once("commons/header.html"); ?></head>
-<body class="page-template-default page page-id-141">
+<body>
 
     <header class="site-header">
 		<?php include_once("commons/submenu.html"); ?>
-        <?php include_once("commons/novoMenu.html"); ?>   
+        <?php include_once("commons/menu.html"); ?>   
     </header>
 
     <main class="site-main">
 
-	<section id="banner" class="">
-        <div class="bgWrapper">
-            <div class="mobile">
-                <img src="img/mob-3.jpg">
-                <img src="img/mob-2.jpg">
-                <img src="img/mob-1.jpg">
-            </div>
-            <div class="hd">
-                <img src="img/banner-1.jpg">
-                <img src="img/banner-2.jpg">
-                <img src="img/banner-3.jpg">
-            </div>
-        </div>
-    </section>
+    <?php include_once("commons/bannerMain.html"); ?>
 
-        <section class="boxes_area">
 
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-sm-4">
-
-                        <div class="box">
-
-                            <h3>Organizacional</h3>
-
-                            <p>Somos uma empresa com 28 anos de experiência em auditoria e consultoria empresarial, adquirida em empresas nacionais e multinacionais.</p>
-
-                            <i class="fa fa-cogs"></i>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-4">
-
-                        <div class="box">
-
-                            <h3>Profissionais</h3>
-
-                            <p>Em nosso quadro funcional contamos com profissionais especializados e com vasta vivência na área, o que nos permite um tratamento com qualidade.</p>
-
-                            <i class="fa fa-clipboard"></i>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-sm-4">
-
-                        <div class="box">
-
-                            <h3>Foco</h3>
-
-                            <p>Oferecer inovação e serviços de alta qualidade através do conhecimento técnico, vivência profissional com enfoque qualificado.</p>
-
-                            <i class="fa fa-exclamation-triangle"></i>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
+    <?php include_once("commons/areaBox.html"); ?>
 
         <section class="services">
 
