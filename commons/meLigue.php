@@ -14,7 +14,7 @@ $header = "From:reginaldo@caboataneassociados.com.br"."\r\n".
 		"Reply-To:".$email."\r\n".
 		"X=Mailer:PHP/".phpversion();
 if(mail($to, $subject, $body, $header)) {
-	header("Location:http://caboataneassociados.com.br");
+	header("Location:http://www.caboataneassociados.com.br");
 };
 ?>
 
