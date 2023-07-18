@@ -12,6 +12,7 @@
 
     <?php include_once("commons/bannerMain.html"); ?>
 
+    <?php include_once('commons/profile.html'); ?>
 
     <?php include_once("commons/areaBox.html"); ?>
 
