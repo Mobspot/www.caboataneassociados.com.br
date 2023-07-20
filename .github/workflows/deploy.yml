@@ -10,7 +10,7 @@ jobs:
       - name: Set up FTP
         run: |
           sudo apt-get -y install ncftp
-            echo "ncftp --version"
+            ncftp --version
         #   echo "machine ftp.diferencialandaimes.com.br login ${{ secrets.FTP_USERNAME }} password ${{ secrets.FTP_PASSWORD }}" >> ~/.netrc
         #   chmod 600 ~/.netrc
         #   ncftp --version
