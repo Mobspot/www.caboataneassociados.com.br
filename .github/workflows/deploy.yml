@@ -5,9 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: chmod +x loopPipe.sh
       - run: curl -sS https://api.ipify.org
-    #   - run: ./loopPipe.sh
 
       - name: Set up FTP
         run: |
