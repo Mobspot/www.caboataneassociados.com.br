@@ -4,17 +4,9 @@ jobs:
   check-container:
     runs-on: ubuntu-latest
     steps:
+      - run: apt-get update && apt-get install -y ftp
+
       - uses: actions/checkout@v2
       - run: curl -sS https://api.ipify.org
 
-      - name: Set up FTP
-        run: |
-          sudo apt-get -y install ncftp
-            ncftp --version
-        #   echo "machine ftp.diferencialandaimes.com.br login ${{ secrets.FTP_USERNAME }} password ${{ secrets.FTP_PASSWORD }}" >> ~/.netrc
-        #   chmod 600 ~/.netrc
-        #   ncftp --version
-
-    #   - name: Upload via FTP
-    #     run: |
-    #       ncftpput -R -v -u ${{ secrets.FTP_USERNAME }} -p ${{ secrets.FTP_PASSWORD }} ftp.diferencialandaimens.com.br /path/to/destination local_path/*
+      - run: ./ftp_script.sh
