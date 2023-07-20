@@ -70,7 +70,7 @@
 
                 <section class="category-content col-sm-9">
 
-                    <h2 class="category-title">QUEM NÓS ATENDEMOS</h2>
+                    <h2 class="category-title">ALGUNS CLIENTES ATENDIDOS POR NOSSOS PROFÍSSIONAIS</h2>
 
                     <ul class="media-list">
 
