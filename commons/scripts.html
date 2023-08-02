@@ -1,22 +1,22 @@
 <a href="https://api.whatsapp.com/send?phone=5511997329573" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888; z-index:1000;" target="_blank"><i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
 
 <script type="text/javascript">
-function enviaForm() {
-	var _nome = document.getElementById('nome').value;
-	var _email = document.getElementById('email').value;
-	var _whatsapp = document.getElementById('celular').value;
-	var _mensagem = document.getElementById('mensagem').value;
+// function enviaForm() {
+// 	var _nome = document.getElementById('nome').value;
+// 	var _email = document.getElementById('email').value;
+// 	var _whatsapp = document.getElementById('celular').value;
+// 	var _mensagem = document.getElementById('mensagem').value;
 		
-	$.get( "/enviaForm.php", { nome: _nome, email: _email, celular: _celular, mensagem: _mensagem});
+// 	$.get( "/enviaForm.php", { nome: _nome, email: _email, celular: _celular, mensagem: _mensagem});
 
-}
+// }
 
-function meLigue() {
-	var _nome = document.getElementById('nome').value;
-	var _whatsapp = document.getElementById('celular').value;
+// function meLigue() {
+// 	var _nome = document.getElementById('nome').value;
+// 	var _whatsapp = document.getElementById('celular').value;
 		
-	$.get( "/meLigue.php", { nome: _nome, celular: _celular});
-}
+// 	$.get( "/meLigue.php", { nome: _nome, celular: _celular});
+// }
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,26 +31,6 @@ function meLigue() {
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.js"></script>
-
-<script type="text/javascript">
-        $('.carousel[data-type="multi"] .item').each(function(){
-          var next = $(this).next();
-          if (!next.length) {
-            next = $(this).siblings(':first');
-          }
-          next.children(':first-child').clone().appendTo($(this));
-
-          for (var i=0;i<4;i++) {
-            next=next.next();
-            if (!next.length) {
-                next = $(this).siblings(':first');
-            }
-
-            next.children(':first-child').clone().appendTo($(this));
-          }
-        });        
-    </script>
 
 <script type="text/javascript" src="js/libs/libs.min.js"></script>
 <script type="text/javascript" src="js/scripts.min.js"></script>

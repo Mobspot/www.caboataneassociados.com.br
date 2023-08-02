@@ -11,9 +11,7 @@
     <main class="site-main">
 
     <?php include_once("commons/bannerMain.html"); ?>
-
     <?php include_once('commons/profile.html'); ?>
-
     <?php include_once("commons/areaBox.html"); ?>
 
         <section class="services">
@@ -279,30 +277,11 @@
 
         </section>
 
-		
-
     </main>
-
-	
-
-    <footer class="site-footer">
-
-		<?php include_once("commons/footer.html"); ?>
-
-		<?php include_once("commons/foot.html"); ?>
-
-	</footer>
-
-	
-
-	
-
-	
-
-    <?php include_once("commons/scripts.html"); ?>
-
-    
-
-</body>
-
+        <footer class="site-footer">
+            <?php include_once("commons/footer.html"); ?>
+            <?php include_once("commons/foot.html"); ?>
+        </footer>
+        <?php include_once("commons/scripts.html"); ?>
+    </body>
 </html>
