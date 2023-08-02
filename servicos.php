@@ -56,7 +56,7 @@
 
                     <div class="entry">
 
-						<h4>
+						<h4 style="line-height:30px;">
                         <p>&#10004;Auditoria Interna/Compliance (em todos departamentos ou operações especificas);</p>
                         <p>&#10004;Auditoria Terceiro Setor (entidades sem finalidade de lucro), sendo, Associações, Hospitais, Institutos, Fundações, Filantropias, Educação, Instituições Religiosas, Ongs, Sindicatos de Classes e outras;</p>
                         <p>&#10004;Auditoria administrativa. financeira e operacional:</p>
@@ -126,7 +126,7 @@
 
 						<h4>&#10004; Realizamos contabilidade em associações, fundações, institutos e outras entidades sem finalidade de lucro.</h4>
 
-
+                        <h4>&#10004; Elaboração de Prestação de Contas para órgãos fiscalizadores, municipal, estadual e outros.</h4>
 
 						<h4>&#10004; Os trabalhos de contabilidade realizamos em nosso escritório e dependendo volume de operações financeiras alocamos profissionais em tempo integral nas instalações do cliente, evitando o “vai e vem” de documentos da empresa para o nosso escritório.</h4>
 
