@@ -61,21 +61,14 @@
 						<img src="img/mvv.png" style="width:50%;"/>
 
 						<h4 style="line-height:30px;">
-                            <p>Adquirida em empresas nacionais e multinacionais de auditoria, contabilidade e consultoria 
-                                empresarial, tendo prestado seus serviços a empresas de renome.</p>
                             <p>Atendemos empresa em todo Brasil. e somos membros da AFTAL – GSP que significa «Auditoria – 
                                 Finanças – Impostos – Contabilidade – Legal. + Global – Service – Partner «, é uma REDE de 
-                                EMPRESAS e PROFISSIONAIS INDEPENDENTES MULTIDISCIPLINARES especialistas de vários países. 
-                                A AFTAL - GSP visa facilitar o acesso a profissionais especializados em auditoria e 
-                                contabilidade de diferentes países de forma a ter um “LOCAL PARTNER” em todos os países 
-                                abrangidos pela REDE, sem constituir pessoa jurídica para que cada Escritório ou Profissional 
-                                mantenha a sua independência, doravante denominado "PARCEIRO LOCAL" da REDE.</p>
-                            <p>Países membros da Rede Internacional: Brasil, Colômbia, Costa Rica, Equador, El Salvador, Espanha, 
-                                Guatemala, Honduras, México, Panamá, Paraguai, Peru, República Dominica e Venezuela.</p>
-                            <p>Em nosso quadro funcional contamos com profissionais especializados e com vasta vivência na 
-                                área, o que nos permite garantir tratamento essencialmente técnico aos assuntos que nos 
-                                forem confiados. Realizamos nossos trabalhos de acordo com as Normas Internacionais de 
-                                Contabilidade e Auditoria.</p>
+                                EMPRESAS e PROFISSIONAIS INDEPENDENTES MULTIDISCIPLINARES especialistas de vários países. </p>
+                            <p>A AFTAL - GSP visa facilitar o acesso de clientes da CABOATAN a profissionais especializados 
+                                em auditoria e contabilidade de diferentes países de forma a ter um “LOCAL PARTNER” 
+                                em todos os países abrangidos pela REDE, sem constituir pessoa jurídica para que cada 
+                                Escritório ou Profissional mantenha a sua independência, doravante denominado "PARCEIRO 
+                                LOCAL" da REDE</p>
 
 						</h4>
 
